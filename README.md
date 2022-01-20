@@ -4,3 +4,11 @@ commands, handles blank lines and comments, provides expansion for the variable 
 the commands exit, cd and status, executes other commands by creating new process using exec
 functions, supports input and output redirection, supports running commands in foreground
 and background processes, and implements customs handlers for 2 signals, SIGINT and SIGSTP.
+
+To to compile code, use the command line:
+
+     gcc --std=gnu99 -o smallsh main.c
+
+To run smallsh, use the command line:
+
+     ./smallsh
